@@ -1,0 +1,346 @@
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 30px;
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: #ffffff;
+}
+h1{
+  font-family: 'Do Hyeon', sans-serif;
+  color: red;
+  font-weight: lighter;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+a {
+  color: White;
+  /*font-family: 'Anton', sans-serif;*/
+  font-family: 'Teko', sans-serif;
+  justify-content: center;
+  padding: 8px 10px 10px 10px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: yellow;
+
+}
+
+
+img {
+  float: left;
+  width: 329px;
+  height: 111px;
+  margin-top: -135px;
+  margin-left: -148px;
+}
+
+em {
+  color: white;
+  font-style: bold;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+
+/*button css*/
+
+.btn-default {
+  color: #000000;
+  background-color: #FF9000;
+  border: 1px solid #FF9000;
+  padding: 20px 45px;
+  border-radius: 3px;
+  font-weight: lighter;
+  margin-top: 368px;
+
+
+}
+
+.btn-default:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 0.5px dashed #000000;
+}
+
+.btn-default:hover em {
+  color: #FF9000;
+}
+
+/*navbar css*/
+
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar-wagon-brand img {
+  height: 88px;
+  width: 275px;
+  margin-top: 28px;
+  margin-left: -18px;
+}
+
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: #616668;
+  font-size: 14px;
+  border-right: dashed black 1px;
+  font-weight: bold;
+}
+
+.navbar-wagon-link.orange:hover {
+  color: #000000;
+}
+
+.orange {
+  color: #FF9000;
+}
+
+
+.home-orange {
+  color: #000000;
+}
+
+.home-orange:hover {
+  color: #FF9000;
+}
+
+.navbar-wagon-link .orange:hover {
+  color: #FF9000;
+  text-decoration: none;
+}
+
+/*banner css*/
+
+
+#banner{
+  text-align: center;
+  background-color: white;
+  background-image: url("images/test2 bebe.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  background-size: 90% 100%;
+  margin-bottom: 113px;
+
+}
+
+
+#banner h1 {
+  color: transparent;
+  font-size: 10px;
+  padding-top: 31px;
+
+}
+
+#banner p {
+  color: transparent;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#banner h1 p {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+/*footer css*/
+
+.footer {
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+p {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+/*Container cards*/
+
+.row h1 {
+  color: #FF9000;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 120px;
+  opacity: 0.7;
+  text-shadow: 2px -0.5px #000000;
+  margin-bottom: 73px;
+}
+
+.row h2 {
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 23px;
+  font-weight: lighter;
+  border-bottom: dashed #FF9000 2px ;
+  padding-bottom: 21px;
+  opacity: 0.9;
+  text-shadow: 0.1;
+  /*text-shadow: 1.5px 0.5px #FF9000;*/
+  /*font-weight: semi-bold;*/
+}
+
+.row p {
+  color: #000000;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 70px;
+  opacity: 0.8;
+}
+
+/*div .col-xs-12.col-sm-4 {
+  border-right: dashed #000000 1px;
+  border-left: dashed #000000 1px;
+}*/
+
+
+
+
+
+/*form css*/
+
+
+.container {
+  color: #FF9000;
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  justify-content: center;
+}
+
+form {
+  padding: 23px 14px;
+}
+
+
+form h1 .text-center {
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+
+}
+
+/*.text-center {
+  color: #000000;
+  font-weight: semi-bold;
+}*/
+
+h1.text-center {
+  font-size: 40px;
+  margin-top: 120px;
+  margin-bottom: 71px;
+}
+
+
+form {
+  width: 100%;
+}
+
+form .btn-primary {
+  width: 100%;
+  line-height: 30px;
+  background-color: #FF9000;
+  color: #000000 ;
+  font-size: 15px;
+  border-color: #FF9000;
+  font-weight: bold;
+  padding: 14px 45px;
+  position: relative;
+  top: 6px;
+  border-radius: 3px;
+
+
+}
+
+.form-group input {
+  border-color: #FF9000;
+  opacity: 0.5;
+}
+
+body div.container-line {
+  border-top: solid lightgrey 1px;
+  margin-top: 252px;
+}
+
+body div.container-line-bottom {
+  border-top: solid lightgrey 1px;
+  margin-top: 252px;
+}
+
+
+form .btn-primary:hover {
+  background-color: #000000;
+  border-color: #000000 ;
+}
+
+label {
+  font-weight: lighter;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  color: #000000;
+  text-align: center;
+  /*text-shadow: 1px 1px #FF9000;*/
+
+}
+
+.container div .row {
+  background-size: 100% 100%;
+}
+
+/*.btn:hover {
+  background-color: purple;
+}*/
